@@ -4,5 +4,31 @@
     background-size: cover;
     background-attachment: fixed;
     width: auto;
-    height: 400px;
+    height: 600px;
+}
+#road{
+    background: url(road.jpg);
+    
+}
+#img{
+    height: 150px;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#btna{
+    width: 80px;
+    font-size: 30px;
+    background-color: rgb(14, 221, 240);
+    border-radius: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+#btn :hover{
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
 }
